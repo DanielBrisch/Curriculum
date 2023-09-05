@@ -19,8 +19,6 @@ experiencias = [
     },
 ]
 
-
-
 function createDivExperiencia(divPai, experiencia){
     divExperience = document.createElement("div")
     divExperience.setAttribute("class", "experience")
@@ -46,9 +44,6 @@ function createDivExperiencia(divPai, experiencia){
     divExperience.appendChild(descricao)
     divPai.appendChild(divExperience)
 }
-
-
-
 
 for (let experiencia of experiencias){
     createDivExperiencia(divExperiencias, experiencia)
