@@ -3,10 +3,10 @@ divExperiencias = document.querySelector("#experiences")
 console.log(divExperiencias)
 experiencias = [
     {
-        "empresa": "Unimed - Pato Branco - PR",
-        "cargo": "Jovem Aprendiz de Analista de Infraestrutura",
-        "descricao": "Por um período próximo a um ano, exerci a posição de suporte de infraestrutura, com responsabilidades voltadas para a manutenção de máquinas e redes na Unimed Pato Branco.",
-        "data" : "01/03/2022 - 30/12/2023"
+        "empresa": "Viasoft",
+        "cargo": " Desenvolvedor Full Stack",
+        "descricao": "Dentro da Viasoft, realizei uma transição de função para o cargo de desenvolvedor full stack, onde trabalhei com um amplo leque de tecnologias, incluindo Java, Spring Boot, Angular, TypeScript, Android Native e Flutter.",
+        "data" : "01/07/2023 - Actualy"
     },
     {
         "empresa": "Viasoft",
@@ -15,10 +15,10 @@ experiencias = [
         "data" : "02/01/2023 - 01/07/2023"
     },
     {
-        "empresa": "Viasoft",
-        "cargo": " Desenvolvedor Full Stack",
-        "descricao": "Dentro da Viasoft, realizei uma transição de função para o cargo de desenvolvedor full stack, onde trabalhei com um amplo leque de tecnologias, incluindo Java, Spring Boot, Angular, TypeScript, Android Native e Flutter.",
-        "data" : "01/07/2023 - Actualy"
+        "empresa": "Unimed - Pato Branco - PR",
+        "cargo": "Jovem Aprendiz de Analista de Infraestrutura",
+        "descricao": "Por um período próximo a um ano, exerci a posição de suporte de infraestrutura, com responsabilidades voltadas para a manutenção de máquinas e redes na Unimed Pato Branco.",
+        "data" : "01/03/2022 - 30/12/2023"
     },
 ]
 

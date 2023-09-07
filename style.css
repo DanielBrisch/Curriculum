@@ -22,17 +22,22 @@ body {
     padding-left: 40px;
     padding-top: 30px;
     display: flex;
+    
+}
+
+#direita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    clear:  none;
 }
 
 #header {
-    display: flex;
-    width: 33%;
-    height: 30%;
-    color: white;
-    padding-left: 28px;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
 
 #header>hr {
@@ -62,6 +67,7 @@ body {
     height: 97%;
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 #trabalhos {
@@ -85,18 +91,15 @@ body {
     justify-content: center;
 }
 
+#tecnologias {
+    display: flex;
+    clear: both;
+}
+
 #footer {
     padding: 20px;
     display: flex;
     justify-content: center;
-}
-
-
-.maleta {
-    width: 34px; 
-    height: 38px;
-    padding-top: 7px;
-    padding-left: 15px;
 }
 
 .exp {
