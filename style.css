@@ -25,9 +25,18 @@ body {
 }
 
 #header {
+    display: flex;
     width: 33%;
     height: 30%;
     color: white;
+    padding-left: 28px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#header>hr {
+    width: 250px;
 }
 
 #avatar { 
@@ -36,6 +45,7 @@ body {
     display: flex;
     border-radius: 50%; 
     object-fit: cover;
+    border: 5px solid white;
 }
 
 #info {
