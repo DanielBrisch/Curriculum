@@ -3,7 +3,7 @@ divExperiencias = document.querySelector("#experiences")
 console.log(divExperiencias)
 experiencias = [
     {
-        "empresa": "Unimed",
+        "empresa": "Unimed - Pato Branco - PR",
         "cargo": "Jovem Aprendiz de Analista de Infraestrutura",
         "descricao": "Por um período próximo a um ano, exerci a posição de suporte de infraestrutura, com responsabilidades voltadas para a manutenção de máquinas e redes na Unimed Pato Branco.",
     },
@@ -14,7 +14,7 @@ experiencias = [
     },
     {
         "empresa": "Viasoft",
-        "cargo": " ",
+        "cargo": " Desenvolvedor Full Stack",
         "descricao": "Dentro da Viasoft, realizei uma transição de função para o cargo de desenvolvedor full stack, onde trabalhei com um amplo leque de tecnologias, incluindo Java, Spring Boot, Angular, TypeScript, Android Native e Flutter.",
 
     },
@@ -24,7 +24,7 @@ function createDivExperiencia(divPai, experiencia){
     divExperience = document.createElement("div")
     divExperience.setAttribute("class", "experience")
 
-    empresa = document.createElement("h3")
+    empresa = document.createElement("h2")
     empresa.setAttribute("class", "empresa")
     empresa.innerText = experiencia.empresa
 
@@ -54,3 +54,5 @@ function createDivExperiencia(divPai, experiencia){
 for (let experiencia of experiencias){
     createDivExperiencia(divExperiencias, experiencia)
 }
+
+    
