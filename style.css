@@ -9,7 +9,7 @@ body {
 
 #container {
     width: 80%;
-    height: 100vh;
+    height: 150vh;
     padding-top: 35px;
     display: flex;
     flex: column;
@@ -26,20 +26,23 @@ body {
 
 #header {
     width: 33%;
+    height: 30%;
 }
 
 #avatar { 
-    width: 325px;
-    height: 300px;
+    width: 260px;
+    height: 250px;
     display: flex;
     border-radius: 50%; 
     object-fit: cover;
 }
 
 #experiences {
-    width: 50%;
+    width: 80%;
     padding-top: 30px;
     padding-left: 40px;
+    float: right;
+    padding-right: 20px;
 }
 
 #footer {
@@ -52,9 +55,29 @@ body {
     background-color: white;
     width: 85%; 
     float: right;
-    height: 90%;
+    height: 97%;
 }
 
-#trabahos  {
-    background-image: "./img/66754.png";
+#trabalhos {
+    color: white;
+    background-color: rgb(148, 148, 218);
+    height: 50px;
+    width: 520px;
+    float: right;
+    margin-top: 50px;
+    display: flex;
+}
+
+.maleta {
+    width: 34px; 
+    height: 38px;
+    padding-top: 7px;
+    padding-left: 17px;
+}
+
+.exp {
+    color: black;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 35px;
 }
