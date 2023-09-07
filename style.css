@@ -25,7 +25,6 @@ body {
 }
 
 #header {
-    padding-top: 20px;
     width: 33%;
 }
 
@@ -38,8 +37,9 @@ body {
 }
 
 #experiences {
-    width: 30%;
+    width: 50%;
     padding-top: 30px;
+    padding-left: 40px;
 }
 
 #footer {
@@ -49,10 +49,12 @@ body {
 }
 
 #info {
-    margin-top: 50px;
     background-color: white;
     width: 85%; 
     float: right;
     height: 90%;
+}
 
+#trabahos  {
+    background-image: "./img/66754.png";
 }
