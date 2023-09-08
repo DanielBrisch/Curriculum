@@ -4,7 +4,7 @@ console.log(divExperiencias)
 experiencias = [
     {
         "empresa": "Viasoft",
-        "cargo": " Desenvolvedor Full Stack",
+        "cargo": " Full Stack Developer",
         "descricao": "Within Viasoft, I made a transition in my role to become a full-stack developer, where I work with a wide range of technologies, including Java, Spring Boot, Angular, TypeScript, Android Native, and Flutter.",
         "data" : "01/07/2023 - at the moment"
     },
