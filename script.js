@@ -65,8 +65,9 @@ function createDivExperiencia(divPai, experiencia){
     hr.style.justifyContent = "center";
     hr.style.alignItems = "center";
     hr.style.flexDirection = "column";
-    hr.style.height = "0"; // Altura muito pequena
-    hr.style.width = "111%";
+    hr.style.height = "0"; 
+    hr.style.width = "95%";
+    hr.style.marginLeft = "26px";
     divPai.appendChild(hr);
 
 }
