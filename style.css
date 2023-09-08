@@ -54,6 +54,11 @@ body {
     border-radius: 50%; 
     object-fit: cover;
     border: 5px solid white;
+    transition: transform 0.3s;
+}
+
+#avatar:hover {
+    transform: scale(1.1);
 }
 
 #container {
@@ -76,15 +81,26 @@ body {
 #historico {
     width: 100%;
 }
+
 #trabalhos {
     background-color: black;
     height: 50px;
-    width: 445px;
-    margin-top: 50px;
+    width: 500px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
-    margin-left: 143px;
     justify-content: center;
+    float: right;
+    margin-left: 130px;
+}
+
+.exp {
+    color: black;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
 }
 
 #experiences {
@@ -110,14 +126,7 @@ body {
     justify-content: center;
 }
 
-.exp {
-    color: black;
-    padding-left: 25px;
-    display: flex;
-    color: white;
-    justify-content: center;
-    padding-right: 15px;
-}
+
 
 #direita>hr {
     width: 275px;
@@ -154,10 +163,13 @@ body {
 .itemLinha {
     display: flex;
     flex-direction: row;
-    width: 48;
-    height: 48;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s;
+}
+
+.itemLinha:hover {
+    transform: scale(1.1);
 }
 
 .linhaTec {
