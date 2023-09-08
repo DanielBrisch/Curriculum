@@ -97,7 +97,7 @@ body {
     justify-content: center;
 }
 
-#tecnologias {
+#nomesCetro {
     display: flex;
     flex-direction: center;
     color: white;
@@ -136,7 +136,7 @@ body {
     align-items: center;
 }
 
-.row1 {
+.row {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -145,14 +145,13 @@ body {
     padding-right: 30px;
 }
 
-.nomesTable1 {
+.nomesTable {
     display: flex;
     justify-content: space-between;
-    width: 300px;
-    padding-right: 30px;
+    width: 350px;
 }
 
-.itemLinha1 {
+.itemLinha {
     display: flex;
     flex-direction: row;
     width: 48;
