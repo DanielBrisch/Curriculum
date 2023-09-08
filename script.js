@@ -5,19 +5,19 @@ experiencias = [
     {
         "empresa": "Viasoft",
         "cargo": " Desenvolvedor Full Stack",
-        "descricao": "Dentro da Viasoft, realizei uma transição de função para o cargo de desenvolvedor full stack, onde trabalhei com um amplo leque de tecnologias, incluindo Java, Spring Boot, Angular, TypeScript, Android Native e Flutter.",
-        "data" : "01/07/2023 - Actualy"
+        "descricao": "Within Viasoft, I made a transition in my role to become a full-stack developer, where I work with a wide range of technologies, including Java, Spring Boot, Angular, TypeScript, Android Native, and Flutter.",
+        "data" : "01/07/2023 - at the moment"
     },
     {
         "empresa": "Viasoft",
-        "cargo": "Analista De Testes",
-        "descricao": "Atuei como analista de testes na Viasoft, na área contábil do sistema de agronegócio, por um período de 7 meses. Durante esse tempo, desempenhei frequentemente o papel de analista de requisitos e trabalhei extensivamente na elaboração e execução de consultas e queries necessárias para o desenvolvimento de código.",
+        "cargo": "QA",
+        "descricao": "I worked as a testing analyst at Viasoft, in the agricultural system's accounting area, for a period of 7 months. During that time, I frequently took on the role of a QA and requirements analyst, extensively working on the creation and execution of queries necessary for code development.",
         "data" : "02/01/2023 - 01/07/2023"
     },
     {
         "empresa": "Unimed - Pato Branco - PR",
-        "cargo": "Jovem Aprendiz de Analista de Infraestrutura",
-        "descricao": "Por um período próximo a um ano, exerci a posição de suporte de infraestrutura, com responsabilidades voltadas para a manutenção de máquinas e redes na Unimed Pato Branco.",
+        "cargo": "Young Apprentice Infrastructure Analyst.",
+        "descricao": "For a period of nearly a year, I held the position of infrastructure support, with responsibilities focused on the maintenance of machines and networks at Unimed Pato Branco.",
         "data" : "01/03/2022 - 30/12/2023"
     },
 ]
@@ -54,6 +54,18 @@ function createDivExperiencia(divPai, experiencia){
 
     divExperience.appendChild(data)
     divPai.appendChild(divExperience)
+
+    const hr = document.createElement("hr");
+    hr.style.borderColor = "black";
+    hr.style.display = "flex";
+    hr.style.justifyContent = "center";
+    hr.style.alignItems = "center";
+    hr.style.flexDirection = "column";
+    hr.style.height = "0"; // Altura muito pequena
+    hr.style.width = "100%";
+
+    divPai.appendChild(hr);
+
 }
 
 for (let experiencia of experiencias){

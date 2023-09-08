@@ -100,17 +100,18 @@ body {
     color: white;
     justify-content: center;
     align-items: center;
-    width: 600px;
+    padding-right: 55px;
 }
 
 #experiences {
     width: 65%;
-    margin-top: 40px;
+    margin-top: 0px;
     display: flex;
     flex-direction: column;
     padding-left: 150px;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 #nomesCetro {
