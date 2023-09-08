@@ -28,18 +28,22 @@ function createDivExperiencia(divPai, experiencia){
 
     empresa = document.createElement("h2")
     empresa.setAttribute("class", "empresa")
+    empresa.style.paddingLeft = "25px";
     empresa.innerText = experiencia.empresa
 
     cargo = document.createElement("h4")
     cargo.setAttribute("class", "cargo")
+    cargo.style.paddingLeft = "25px";
     cargo.innerText = experiencia.cargo
 
     descricao = document.createElement("p")
     descricao.setAttribute("class", "descricao")
+    descricao.style.paddingLeft = "25px";
     descricao.innerText = experiencia.descricao
 
     data = document.createElement("p")
     data.setAttribute("class", "descricao")
+    data.style.paddingLeft = "25px";
     data.style.fontWeight = "bold";
     data.innerText = experiencia.data
 
@@ -62,8 +66,7 @@ function createDivExperiencia(divPai, experiencia){
     hr.style.alignItems = "center";
     hr.style.flexDirection = "column";
     hr.style.height = "0"; // Altura muito pequena
-    hr.style.width = "100%";
-
+    hr.style.width = "111%";
     divPai.appendChild(hr);
 
 }

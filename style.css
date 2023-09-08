@@ -82,25 +82,24 @@ body {
     width: 100%;
 }
 
-#trabalhos {
+#linhaPreta {
     background-color: black;
     height: 50px;
-    width: 500px;
+    width: 452px;
     margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     float: right;
-    margin-left: 130px;
+    margin-left: 175px;
 }
 
 .exp {
-    color: black;
     display: flex;
     color: white;
     justify-content: center;
     align-items: center;
-    padding-right: 55px;
+    padding-right: 5px;
 }
 
 #experiences {
@@ -108,7 +107,7 @@ body {
     margin-top: 0px;
     display: flex;
     flex-direction: column;
-    padding-left: 150px;
+    padding-left: 175px;
     align-items: center;
     justify-content: center;
     text-align: center;
